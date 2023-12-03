@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>I am a Chef</title>
+</head>
+<body>
+    <header>
+        <h1>我是大廚</h1>
+        <p class="slogan">只要俾心機人人都係大廚 | Five MICHELIN Stars</p>
+    </header>
+    <div class="container">
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul class="side-menu">
+                <li onclick="showCategory('appetizers')">Appetizers</li>
+                <li onclick="showCategory('main-courses')">Main Courses</li>
+                <li onclick="showCategory('desserts')">Desserts</li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <h2 id="category-title">Select a category</h2>
+            <div class="dishes" id="dishes-container">
+                <!-- Dish cards will be displayed here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
