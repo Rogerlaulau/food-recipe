@@ -53,6 +53,18 @@ const dishDetailsData = {
             'Dust with cocoa powder and refrigerate for a few hours before serving.'
         ]
     },
+    'Easy Homemade Pizza Dough': {
+        ingredients: ['1 and 1/3 cups (320ml) warm water (between 100-110°F, 38-43°C)', '2 and 1/4 teaspoons (7g) Platinum Yeast from Red Star instant yeast (1 standard packet)*', '1 Tablespoon (13g) granulated sugar', '2 Tablespoons (30ml) olive oil, plus more for pan and brushing on dough', '1 teaspoon salt'],
+        instructions: [
+            'Whisk the warm water, yeast, and granulated sugar together in the bowl of your stand mixer fitted with a dough hook or paddle attachment. Cover and allow to rest for 5 minutes. *If you don’t have a stand mixer, simply use a large mixing bowl and mix the dough with a wooden spoon or rubber spatula in the next step.',
+            'Add the olive oil, salt, and flour. Beat on low speed for 2 minutes. Turn the dough out onto a lightly floured surface. With lightly floured hands, knead the dough for 5 minutes (for a visual, watch me do it in the video above). The dough can be a little too heavy for a mixer to knead it, but you can certainly use the mixer on low speed instead. After kneading, the dough should still feel a little soft. Poke it with your finger – if it slowly bounces back, your dough is ready to rise. If not, keep kneading.',
+            'Lightly grease a large bowl with oil or nonstick spray– just use the same bowl you used for the dough. Place the dough in the bowl, turning it to coat all sides in the oil. Cover the bowl with aluminum foil, plastic wrap, or a clean kitchen towel. Allow the dough to rise at room temperature for 60-90 minutes or until double in size. (Tip: For the warm environment on a particularly cold day, heat your oven to 150°F (66°C). Turn the oven off, place the dough inside, and keep the door slightly ajar. This will be a warm environment for your dough to rise. After about 30 minutes, close the oven door to trap the air inside with the rising dough. When it’s doubled in size, remove from the oven.)'
+        ]
+    },
+    '土匪雞翼': {
+        ingredients:[ '雞翼 (12-15隻)', '黑芝麻少許', '孜然粉 3茶匙', '芫荽粉  ¼茶匙', '五香粉 ½茶匙', '鹽 ¼茶匙', '糖 1茶匙', '紹酒 2茶匙', '生抽（醬油）2茶匙', '老抽 2茶匙', '麻油 1茶匙', '胡椒粉 少許'],
+        instructions:['雞翼洗淨，擦乾。', '將所有醃料混合均勻。 加入雞翼，攪拌均勻。 醃製約1小時。 如果醃製過夜會更好吃。', '將焗爐預熱至 200C/390F。 將雞翼放在抹了少許油的烤盤上，不要相互重疊。 放入預熱好的焗爐，烤10分鐘左右。 把雞翼翻過來，繼續烤 8 到 10 分鐘，或者直到雞翼熟透，撒上黑芝麻。', '提示：每個焗爐都有不同的設計，取決於雞翼的大小，可自行調整烘烤時間。']
+    }
 };
 
 document.addEventListener('DOMContentLoaded', function () {

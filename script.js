@@ -6,6 +6,7 @@ const dishData = {
     'appetizers': [
         { name: 'Caprese Salad', image: 'https://via.placeholder.com/300', details: 'Fresh mozzarella, tomatoes, basil, and balsamic glaze.' },
         { name: 'Bruschetta', image: 'https://via.placeholder.com/300', details: 'Toasted bread topped with diced tomatoes, garlic, and basil.' },
+        { name: '土匪雞翼', image: 'https://www.helperfamily.com/wp-content/uploads/2021/11/01-400x299.jpeg', details: '土匪雞翼的做法非常簡易，只需把雞翼和所有材料拌勻，放進焗爐，若沒有焗爐，也可以用鍋煎熱。' },
     ],
     'main-courses': [
         { name: 'Chicken Alfredo', image: 'https://via.placeholder.com/300', details: 'Creamy Alfredo sauce with grilled chicken and fettuccine pasta.' },
